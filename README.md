@@ -1,4 +1,4 @@
-# Predicción de Sentimiento Ciudadano ante Políticas Públicas
+## Predicción de Sentimiento Ciudadano ante Políticas Públicas
 
 Este repositorio contiene la arquitectura de procesamiento de lenguaje natural (NLP) diseñada para analizar y predecir la reacción ciudadana frente a anuncios del Gobierno de la Ciudad Autónoma de Buenos Aires (GCBA).
 
