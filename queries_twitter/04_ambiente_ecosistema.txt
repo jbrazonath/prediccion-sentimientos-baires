@@ -1,0 +1,18 @@
+Query de Ambiente (Ecosistema)
+---------------------------
+Objetivo: Recolectar datos sobre la percepción pública ante políticas ambientales y eventos de sostenibilidad en Buenos Aires.
+
+Estrategia: Descarga de hilos y menciones directas sin filtros de palabras clave para maximizar el dataset predictivo.
+
+Cuentas analizadas:
+- @BA_Ambiente (Institucional CABA)
+- @AmbienteNacion (Nacional)
+- @baclima (Cambio Climático)
+- @ecogcba (Reciclaje/Residuos)
+- @EcoHouseOk (ONG Educativa)
+- @JovenesPorClima (Activismo)
+- @acumar_riachuelo (Saneamiento)
+- @Vida_Silvestre (Biodiversidad)
+
+Salida: dataset_recolectado_AMBIENTE.csv
+Meta de interacciones: >5000 (Sumando Tuits + Respuestas + RTs)

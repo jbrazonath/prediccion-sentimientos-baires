@@ -1,0 +1,14 @@
+# Ambientes Virtuales de Python (Pesados e Innecesarios de subir)
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# ARCHIVO CRÍTICO (Seguridad)
+# Ignoramos config_twitter.py para que los tokens de la API de Twitter y tus contraseñas privadas 
+# jamás se suban públicamente a la web, protegiendo tu cuenta.
+config_twitter.py

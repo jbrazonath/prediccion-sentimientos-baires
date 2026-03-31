@@ -1,0 +1,20 @@
+Query de Cultura (Ecosistema)
+---------------------------
+Objetivo: Capturar toda la interacción relacionada con la actividad cultural en CABA del ecosistema de cuentas oficiales y de difusión.
+
+Estrategia: "Grifo abierto" (Sin palabras clave) para maximizar volumen.
+
+Cuentas analizadas:
+- @FestivalesGCBA (Eventos masivos)
+- @datacultura (Ministerio de Cultura)
+- @buenosairescult (Agenda general)
+- @TeatroColon (Alta cultura e interacción)
+- @elrecoleta (Cultura joven/contemporánea)
+- @CCKirchner (Eventos y opinión pública)
+- @DisfrutemosBA (Salidas y eventos)
+- @LaAgendaBA (Revista cultural)
+
+Lógica de descarga:
+1. Fase 1: Hilos oficiales (Anuncio + Respuestas vinculadas).
+2. Fase 2: Menciones directas (Sin filtros de contenido, asumiendo relevancia temática por cuenta).
+3. Suma de Retweets: Cada RT cuenta como una interacción adicional en el conteo total del TP.

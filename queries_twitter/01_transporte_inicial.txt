@@ -1,0 +1,13 @@
+Query de Transporte (Inicial)
+---------------------------
+Objetivo: Capturar menciones a @batransporte sobre temas de transporte (subte, tarifa, colectivo, etc.) excluyendo tweets de la propia cuenta oficial y retweets irrelevantes.
+
+Query:
+(@batransporte) (subte OR tarifa OR aumento OR colectivo OR bondi OR tren OR servicio OR frecuencia OR paro OR boleto) -from:batransporte lang:es -is:retweet
+
+Explicación de los filtros:
+- (@batransporte): Busca menciones directas al usuario.
+- (subte OR tarifa ...): Palabras clave del dominio para filtrar ruido (ej: objetos perdidos).
+- -from:batransporte: Excluye los anuncios oficiales.
+- lang:es: Solo tweets en español.
+- -is:retweet: Solo tweets originales (para análisis de sentimiento).

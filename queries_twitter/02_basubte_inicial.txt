@@ -1,0 +1,12 @@
+Query de Subte (basubte)
+---------------------------
+Objetivo: Capturar menciones a @basubte sobre el estado del servicio y percepción pública.
+
+Query:
+(@basubte) (subte OR tarifa OR aumento OR servicio OR frecuencia OR demora OR escalera OR estación OR combinación) -from:basubte lang:es -is:retweet
+
+Explicación de los filtros:
+- (@basubte): Usuario oficial de Subtes de Buenos Aires.
+- Keywords: Se agregaron "demora", "escalera" y "estación" que son temas recurrentes de queja/percepción.
+- -from:basubte: Filtra los anuncios oficiales.
+- lang:es -is:retweet: Estándar para el TP.
